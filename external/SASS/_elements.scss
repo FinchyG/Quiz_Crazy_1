@@ -1,0 +1,47 @@
+body {
+    @extend %body_background;
+    font-family: $easyread;
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+h1 {
+    @extend %header;
+    font-size: 5em;
+    padding: 3% 0;
+
+    @media (max-width: $phone-width) {
+        font-size: 0.7em;
+    }
+}
+
+h4 {
+    @extend %header;
+    font-size: 2em;
+    text-decoration: underline;
+    margin-bottom: -0.2em;
+
+    @media (max-width: $phone-width) {
+        font-size: 0.6em;
+    }
+}
+
+p {
+    margin-bottom: 0.2em;
+
+    @media (max-width: $phone-width) {
+        font-size: 0.5em;
+    }
+}
+
+a {
+    color: #000000;
+
+    &:hover {
+        font-style: italic;
+    }
+
+    @media (max-width: $phone-width) {
+        font-size: 0.5em;
+    }
+}
