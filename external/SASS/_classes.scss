@@ -1,13 +1,91 @@
+.wide_section {
+    @extend %section_box-shadow;
+    width: 75%;
+    margin: auto;
+}
+
 .quiz_select {
     font-family: $roman;
     text-align: center;
 }
 
-.wide_section {
-    @extend %section_background;
-    @extend %section_border;
-    width: 75%;
-    margin: 3% auto;
+.top_row_left, .bottom_row_left {
+    @extend %section_box-shadow;
+    display: inline-block;
+    width: 20%;
+    margin-left: 28%;
+}
+
+.top_row_right, .bottom_row_right {
+    @extend %section_box-shadow;
+    display: inline-block;
+    width: 20%;
+    margin-right: 28%;
+}
+
+.mid_row_left {
+    @extend %section_box-shadow;
+    display: inline-block;
+    width: 20%;
+    margin-left: 15%;
+}
+
+.mid_row_centre, .mid_row_right {
+    @extend %section_box-shadow;
+    display: inline-block;
+    width: 20%;
+}
+
+.bottom_row_left {
+    @extend %section_box-shadow;
+    display: inline-block;
+    width: 20%;
+    margin-left: 28%;
+    margin-bottom: 2%;
+}
+
+.bottom_row_right {
+    @extend %section_box-shadow;
+    display: inline-block;
+    width: 20%;
+    margin-right: 28%;
+    margin-bottom: 2%;
+}
+
+
+.general_knowledge {
+    background: rgb(215, 233, 54);
+    background: rgba(215, 235, 54, 0.5);
+}
+
+.entertainment {
+    background: rgb(179, 23, 23);
+    background: rgba(179, 23, 23, 0.5);
+}
+
+.sport {
+    background: rgb(87, 81, 180);
+    background: rgba(87, 81, 180, 0.5);
+}
+
+.science_and_nature {
+    background: rgb(19, 184, 82);
+    background: rgba(19, 184, 82, 0.5);
+}
+
+.geography {
+    background: rgb(167, 102, 18);
+    background: rgba(167, 102, 18, 0.5);
+}
+
+.history {
+    background: rgb(129, 68, 44);
+    background: rgba(129, 68, 44, 0.5);
+}
+
+.flag_quiz {
+    background: rgb(189, 41, 164);
+    background: rgba(189, 41, 164, 0.5);
 }
 
 .answer {
@@ -15,8 +93,7 @@
 }
 
 .btn {
-    @extend %section_background;
-    @extend %button_border;
+    box-shadow: 0.2em 0.2em 0.2em #000000;
     @extend %button;
     margin-top: 1em;
     
@@ -31,7 +108,7 @@
     width: 60%;
     margin: 1em auto;
 
-    @media (max-width: $phone-width) {
+    @media (max-width: $phone_width) {
         font-size: 0.4em;
     }
 }
@@ -44,9 +121,10 @@
 }
 
 .slider {
-    width: 4.5em;
-    height: 4.5em;
+    width: 3.5em;
+    height: 3.5em;
     position: relative;
+    margin-top: -4em;
 
     animation: image_slide 4s infinite alternate;
     -webkit-animation: image_slide 4s infinite alternate;

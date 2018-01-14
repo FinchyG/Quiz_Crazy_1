@@ -1,44 +1,47 @@
 body {
-    @extend %body_background;
     font-family: $easyread;
     font-size: 14pt;
     font-weight: bold;
+    background: rgb(139, 196, 219);
+    background: rgba(139, 196, 219, 0.5);
 }
 
 h1 {
     @extend %header;
-    font-size: 5em;
-    padding: 3% 0;
-
-    @media (max-width: $phone-width) {
+    font-size: 3.5em;
+    
+    @media (max-width: $phone_width) {
         font-size: 0.7em;
     }
 }
 
 h4 {
     @extend %header;
-    font-size: 2em;
+    font-weight: bold;
     text-decoration: underline;
     margin-bottom: -0.2em;
 
-    @media (max-width: $phone-width) {
+    @media (max-width: $phone_width) {
         font-size: 0.6em;
     }
 }
 
 p {
-    margin-bottom: 0.2em;
+    font-size: 0.8em;
+    padding-bottom: 0.5em;
 
-    @media (max-width: $phone-width) {
+    @media (max-width: $phone_width) {
         font-size: 0.5em;
     }
 }
 
 a {
+    font-size: 0.6em;
     color: #000000;
 
     &:hover {
-        font-style: italic;
+        border: 1px solid #000000;
+        border-radius: 100%;
     }
 
     @media (max-width: $phone-width) {
