@@ -48,3 +48,9 @@ a {
         font-size: 0.5em;
     }
 }
+
+input {
+    @extend %button_box_shadow;
+    position: relative;
+    margin: -2em 0 2em 0;
+}
