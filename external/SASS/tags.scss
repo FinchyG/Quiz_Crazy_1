@@ -1,0 +1,108 @@
+body {
+    font-family: $easyread;
+    font-size: 14pt;
+    font-weight: bold;
+    background: rgb(139, 196, 219);
+    background: rgba(139, 196, 219, 0.5);
+}
+
+h1 {
+    @extend %header;
+    font-size: 3.5em;
+    
+    @media (max-width: $phone_width) {
+        font-size: 0.7em;
+    }
+}
+
+h4 {
+    @extend %header;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: -0.2em;
+    
+    @media (max-width: $phone_width) {
+        font-size: 0.5em;
+    }
+}
+
+h6 {
+    font-size: 0.8em;
+    padding-bottom: 0.2em;
+
+    @media (max-width: $phone-width) {
+        font-size: 0.4em;
+    }
+}
+
+p {
+    font-size: 0.8em;
+    
+    @media (max-width: $phone_width) {
+        font-size: 0.5em;
+    }
+}
+
+a {
+    font-size: 0.6em;
+    color: #000000;
+
+    &:hover {
+        border: 1px solid #000000;
+        border-radius: 100%;
+    }
+
+    @media (max-width: $phone-width) {
+        font-size: 0.5em;
+    }
+}
+
+input {
+    @extend %button_box-shadow;
+    position: relative;
+    margin-left: 7em;
+
+    @media (max-width: $tablet_width) {
+        width: 8em;
+        height: 1em;
+    }
+
+    @media (max-width: $phone_width) {
+        width: 3em;
+        height: 0.8em;
+        display: block;
+        margin: auto;
+        font-size: 0.5em;
+    }
+}
+
+figure {
+    @media (max-width: $phone_width)
+    {
+        display: block;
+        margin: auto;
+        padding: 1em 0em;
+    }
+}
+
+figcaption {
+    display: none;
+    margin-left: 14%;
+
+    @media (max-width: $phone_width) {
+        font-size: 0.5em;
+    }
+}
+
+button {
+    @extend %button_box-shadow;
+    @extend %button;
+    background: rgb(103, 146, 163);
+    background: rgba(203, 146, 163, 0.5);
+    margin-top: 1em;
+    text-align: center;
+    
+    @media (max-width: $phone_width) {
+        font-size: 0.4em;
+    }
+}

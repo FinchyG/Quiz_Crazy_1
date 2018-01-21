@@ -1,31 +1,23 @@
-%left_right_section_pos_dis_wdth_pad {
-    position: relative;
-    display: inline-block;
-    width: 35%;
-    padding-bottom: 1em;
-}
-
 %header {
     text-shadow: .05em .05em #999999;
     text-align: center;
     font-family: $roman;
 }
 
-%section_box-shadow {
+%div_box-shadow {
     -webkit-box-shadow: 1em 1em 1em #000000;
     -moz-box-shadow: 1em 1em 1em #000000;
     box-shadow: 1em 1em 1em #000000;
 }
 
-%button_box_shadow {
+%button_box-shadow {
     box-shadow: 0.2em 0.2em 0.2em #000000;
 }
 
 %button {
     font-family: $easyread;
     font-weight: bold;
-    padding: 0.5em 2em;
-
+    
     &:hover {
         cursor: pointer;
     }
