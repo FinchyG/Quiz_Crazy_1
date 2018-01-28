@@ -69,23 +69,3 @@ button {
         font-size: 0.3em;
     }
 }
-
-//code for flag quizes
-
-input {
-    @extend %button_box-shadow;
-    display: block;
-    margin: 1em auto;
-    width: 6em;
-    
-    @media (max-width: $tablet_width) {
-        width: 5em;
-        height: 1em;
-    }
-
-    @media (max-width: $phone_width) {
-        width: 6em;
-        height: 0.8em;
-        font-size: 0.5em;
-    }
-}
