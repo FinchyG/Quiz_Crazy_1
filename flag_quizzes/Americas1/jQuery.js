@@ -1,5 +1,4 @@
 $(document).ready(
-
     $("#submit").click(function() {
       question1();
       question2();
@@ -87,7 +86,8 @@ $(document).ready(
 
 //code for getting answers
 
-$("#getCaptionAnswers").click(function() {
-  $('figcaption').show();
-})
-  
+$(document).ready(
+  $("#get_flag_answers").click(function() {
+    $('.flag_name').show();
+  })
+); 
