@@ -107,7 +107,7 @@
     animation: image_slide 4s infinite alternate;
     -webkit-animation: image_slide 4s infinite alternate;
     -moz-animation: image_slide 4s infinite alternate;
-    -oanimation: image_slide 4s infinite alternate;
+    -o-animation: image_slide 4s infinite alternate;
 
     @media (max-width: $tablet_width) {
         width: 3em;
