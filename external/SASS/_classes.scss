@@ -68,7 +68,7 @@
 //code for page elements
 
 .answer {
-    display: none;
+    visibility: hidden;
     font-size: 0.8em;
     font-family: $easyread;
 
@@ -91,7 +91,9 @@
 .dwnld {
     @extend .actbtn;
     text-align: center;
+    text-decoration: none;
     padding: 0.4em;
+    margin-bottom: 2em;
 
     @media (max-width: $phone_width) {
         font-size: 0.4em;

@@ -31,53 +31,63 @@
 <div class="quiz">
 
 <p>1: What is the longest river in the world?</p>
-<button id="q1">show or hide answer</button>
+<button onclick="show1()">Show Answer</button>
+<button onclick="hide1()">Hide Answer</button>
 <span class="answer" id="a1">The Nile</span>
   
 <p>2: What two countries share lands with Sweden?</p>
-<button id="q2">show or hide answer</button>
+<button onclick="show2()">Show Answer</button>
+<button onclick="hide2()">Hide Answer</button>
 <span class="answer" id="a2">Finland and Norway</span>
   
 <p>3: What is the highest mountain in England?</p>
-<button id="q3">show or hide answer</button>
+<button onclick="show3()">Show Answer</button>
+<button onclick="hide3()">Hide Answer</button>
 <span class="answer" id="a3">Scafell Pike</span>
   
 <p>4: What ocean separates the United States of America from the 
  United Kingdom?</p>
-<button id="q4">show or hide answer</button>
+<button onclick="show4()">Show Answer</button>
+<button onclick="hide4()">Hide Answer</button>
 <span class="answer" id="a4">The Atlantic Ocean</span>
   
 <p>5: What imaginary line separates the Earth's Northern and Southern 
  Hemispheres?</p>
-<button id="q5">show or hide answer</button>
+<button onclick="show5()">Show Answer</button>
+<button onclick="hide5()">Hide Answer</button>
 <span class="answer" id="a5">The Equator</span>
   
 <p>6: What is the capital city of France?</p>
-<button id="q6">show or hide answer</button>
+<button onclick="show6()">Show Answer</button>
+<button onclick="hide6()">Hide Answer</button>
 <span class="answer" id="a6">Paris</span>
   
 <p>7: What mountain range runs along the western side of South 
  America?</p>
-<button id="q7">show or hide answer</button>
+<button onclick="show7()">Show Answer</button>
+<button onclick="hide7()">Hide Answer</button>
 <span class="answer" id="a7">The Andes</span>
   
 <p>8: Jersey and Guernsey are two islands that belong to what 
  archipelago?</p>
-<button id="q8">show or hide answer</button>
+<button onclick="show8()">Show Answer</button>
+<button onclick="hide8()">Hide Answer</button>
 <span class="answer" id="a8">The Channel Islands</span>
   
 <p>9: In which English county is the Lake District located?</p>
-<button id="q9">show or hide answer</button>
+<button onclick="show9()">Show Answer</button>
+<button onclick="hide9()">Hide Answer</button>
 <span class="answer" id="a9">Cumbria</span>
   
 <p>10: The Mediterranean Sea lies between what two continents?</p>
-<button id="q10">show or hide answer</button>
+<button onclick="show10()">Show Answer</button>
+<button onclick="hide10()">Hide Answer</button>
 <span class="answer" id="a10">Europe and Africa</span>
 
 <!-- quiz control buttons -->
 
-<button class="actbtn" id="saa">show all answers</button>
-<button class="actbtn" id="haa">hide all answers</button>
+<button class="actbtn" onclick="showAll()">Show All Answers</button>
+<button class="actbtn" onclick="hideAll()">Hide All Answers</button>
 
 </div>
 
@@ -89,9 +99,8 @@
 
 </body>
 
-<!-- jQuery script links -->
+<!-- JavaScript script link -->
 
-<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"></script>
-<script type="text/javascript" src="../external/javascript.js"></script>
+<script type="text/javascript" src="../external/js.js"></script>
   
 </html>

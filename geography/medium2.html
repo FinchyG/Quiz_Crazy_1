@@ -15,14 +15,14 @@
 
 <body>
 
-<!--main quiz title-->
+<!-- main quiz title -->
 
 <div class="wide_div geography page_title">
   <h1>Geography Medium 2</h1>
   <img class="slider" src="../external/images/geography.png" alt="globe"/>
 </div>
 
-<!--quiz-->
+<!-- quiz -->
 
 <section class="wide_div geography">
 
@@ -31,65 +31,72 @@
 <div class="quiz">
 
 <p>1: What is the capital city of Finland?</p>
-<button id="q1">show or hide answer</button>
+<button onclick="show1()">Show Answer</button>
+<button onclick="hide1()">Hide Answer</button>
 <span class="answer" id="a1">Helsinki</span>
   
 <p >2: What river flows through Washington D.C.?</p>
-<button id="q2">show or hide answer</button>
+<button onclick="show2()">Show Answer</button>
+<button onclick="hide2()">Hide Answer</button>
 <span class="answer" id="a2">The Potomac</span>
   
 <p>3: Strato, shield and dome are types of what geological feature?</p>
-<button id="q3">show or hide answer</button>
+<button onclick="show3()">Show Answer</button>
+<button onclick="hide3()">Hide Answer</button>
 <span class="answer" id="a3">Volcanoes</span>
   
 <p>4: The Isle of Man is situated in what body of water?</p>
-<button id="q4">show or hide answer</button>
+<button onclick="show4()">Show Answer</button>
+<button onclick="hide4()">Hide Answer</button>
 <span class="answer" id="a4">The Irish Sea</span>
   
 <p>5: The Golden Gate Bridge is an architectural feature located in what city?</p>
-<button id="q5">show or hide answer</button>
+<button onclick="show5()">Show Answer</button>
+<button onclick="hide5()">Hide Answer</button>
 <span class="answer" id="a5">San Francisco</span>
   
 <p>6: Whernside is a peak in what British mountain range?</p>
-<button id="q6">show or hide answer</button>
+<button onclick="show6()">Show Answer</button>
+<button onclick="hide6()">Hide Answer</button>
 <span class="answer" id="a6">The Pennines</span>
   
 <p>7: What two countries does the Netherlands share land borders with?</p>
-<button id="q7">show or hide answer</button>
+<button onclick="show7()">Show Answer</button>
+<button onclick="hide7()">Hide Answer</button>
 <span class="answer" id="a7">Germany and Belgium</span>
   
 <p>8: What two colours make up the flag of Ukraine?</p>
-<button id="q8">show or hide answer</button>
+<button onclick="show8()">Show Answer</button>
+<button onclick="hide8()">Hide Answer</button>
 <span class="answer" id="a8">Blue and yellow</span>
   
 <p>9: Catalonia is a region in what country?</p>
-<button id="q9">show or hide answer</button>
+<button onclick="show9()">Show Answer</button>
+<button onclick="hide9()">Hide Answer</button>
 <span class="answer" id="a9">Spain</span>
   
 <p>10: What is the highest mountain in Africa?</p>
-<button id="q10">show or hide answer</button>
+<button onclick="show10()">Show Answer</button>
+<button onclick="hide10()">Hide Answer</button>
 <span class="answer" id="a10">Kilimanjaro</span>
 
 <!--quiz control buttons-->
 
-<button class="actbtn" id="saa">show all answers</button>
-<button class="actbtn" id="haa">hide all answers</button>
+<button class="actbtn" onclick="showAll()">Show All Answers</button>
+<button class="actbtn" onclick="hideAll()">Hide All Answers</button>
 
 </div>
 
 </section>
 
-<!--quiz download button-->
+<!-- quiz download button -->
 
 <a href="medium2.pdf" download="medium2.pdf" class="dwnld">download quiz as a PDF</a>
 
-<!--jQuery script links-->
-
-<footer>
-<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"></script>
-<script type="text/javascript" src="../external/javascript.js"></script>
-</footer>
-
 </body>
+
+<!-- JavaScript script link -->
+
+<script type="text/javascript" src="../external/js.js"></script>
 
 </html>

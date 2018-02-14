@@ -31,50 +31,60 @@
 <div class="quiz">
 
 <p>1: What organ in the human body produces bile?</p>
-<button id="q1">show or hide answer</button>
+<button onclick="show1()">Show Answer</button>
+<button onclick="hide1()">Hide Answer</button>
 <span class="answer" id="a1">The liver</span>
 
 <p>2: What is the largest living species of tree in the world?</p>
-<button id="q2">show or hide answer</button>
+<button onclick="show2()">Show Answer</button>
+<button onclick="hide2()">Hide Answer</button>
 <span class="answer" id="a2">Giant Sequoia (Giant Redwood)</span>
 
 <p>3: A Geiger counter is used to measure the intensity of what 
  phenomenon?</p>
-<button id="q3">show or hide answer</button>
+<button onclick="show3()">Show Answer</button>
+<button onclick="hide3()">Hide Answer</button>
 <span class="answer" id="a3">Radiation</span>
 
 <p>4: What is the chemical symbol for the chemical element caesium?</p>
-<button id="q4">show or hide answer</button>
+<button onclick="show4()">Show Answer</button>
+<button onclick="hide4()">Hide Answer</button>
 <span class="answer" id="a4">Cs</span>
 
 <p>5: What is the largest living species of rodent in the world?</p>
-<button id="q5">show or hide answer</button>
+<button onclick="show5()">Show Answer</button>
+<button onclick="hide5()">Hide Answer</button>
 <span class="answer" id="a5">Capybara</span>
 
 <p>6: What is the Si unit of pressure?</p>
-<button id="q6">show or hide answer</button>
+<button onclick="show6()">Show Answer</button>
+<button onclick="hide6()">Hide Answer</button>
 <span class="answer" id="a6">Pascal</span>
 
 <p>7: Phobos and what other moon orbit Mars?</p>
-<button id="q7">show or hide answer</button>
+<button onclick="show7()">Show Answer</button>
+<button onclick="hide7()">Hide Answer</button>
 <span class="answer" id="a7">Deimos</span>
 
 <p>8: In computer science, what does CDN stand for?</p>
-<button id="q8">show or hide answer</button>
+<button onclick="show8()">Show Answer</button>
+<button onclick="hide8()">Hide Answer</button>
 <span class="answer" id="a8">Content delivery network</span>
 
 <p>9: Cast iron is an alloy of what three chemical elements?</p>
-<button id="q9">show or hide answer</button>
+<button onclick="show9()">Show Answer</button>
+<button onclick="hide9()">Hide Answer</button>
 <span class="answer" id="a9">Iron, carbon and silicon</span>
 
 <p>10: Bull Kelp is a species found living in what type of environment?</p>
-<button id="q10">show or hide answer</button>
+<button onclick="show10()">Show Answer</button>
+<button onclick="hide10()">Hide Answer</button>
 <span class="answer" id="a10">Salt water</span>
 
 <!-- quiz control buttons -->
 
-<button class="actbtn" id="saa">show all answers</button>
-<button class="actbtn" id="haa">hide all answers</button>
+<button class="actbtn" onclick="showAll()">Show All Answers</button>
+<button class="actbtn" onclick="hideAll()">Hide All Answers</button>
 
 </div>
 
@@ -86,9 +96,8 @@
 
 </body>
 
-<!-- jQuery script links -->
+<!-- JavaScript script link -->
 
-<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"></script>
-<script type="text/javascript" src="../external/javascript.js"></script>
+<script type="text/javascript" src="../external/js.js"></script>
   
 </html>
