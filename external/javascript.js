@@ -181,51 +181,16 @@ function hide10() {
 //code for "Show All" and "Hide All" buttons
 
 function showAll() {
-    
-    var answer1 = document.querySelector('#a1');
-    var answer2 = document.querySelector('#a2');
-    var answer3 = document.querySelector('#a3');
-    var answer4 = document.querySelector('#a4');
-    var answer5 = document.querySelector('#a5');
-    var answer6 = document.querySelector('#a6');
-    var answer7 = document.querySelector('#a7');
-    var answer8 = document.querySelector('#a8');
-    var answer9 = document.querySelector('#a9');
-    var answer10 = document.querySelector('#a10');
 
-    answer1.style.visibility = "visible";
-    answer2.style.visibility = "visible";
-    answer3.style.visibility = "visible";
-    answer4.style.visibility = "visible";
-    answer5.style.visibility = "visible";
-    answer6.style.visibility = "visible";
-    answer7.style.visibility = "visible";
-    answer8.style.visibility = "visible";
-    answer9.style.visibility = "visible";
-    answer10.style.visibility = "visible";
+  for(var x = 1; x < 11; x++) {
+    document.querySelector("#a" + x).style.visibility = "visible";
+  }
+
 }
-
-function hideAll() {
     
-    var answer1 = document.querySelector('#a1');
-    var answer2 = document.querySelector('#a2');
-    var answer3 = document.querySelector('#a3');
-    var answer4 = document.querySelector('#a4');
-    var answer5 = document.querySelector('#a5');
-    var answer6 = document.querySelector('#a6');
-    var answer7 = document.querySelector('#a7');
-    var answer8 = document.querySelector('#a8');
-    var answer9 = document.querySelector('#a9');
-    var answer10 = document.querySelector('#a10');
+function hideAll() {
 
-    answer1.style.visibility = "hidden";
-    answer2.style.visibility = "hidden";
-    answer3.style.visibility = "hidden";
-    answer4.style.visibility = "hidden";
-    answer5.style.visibility = "hidden";
-    answer6.style.visibility = "hidden";
-    answer7.style.visibility = "hidden";
-    answer8.style.visibility = "hidden";
-    answer9.style.visibility = "hidden";
-    answer10.style.visibility = "hidden";
+  for(var x = 1; x < 11; x++) {
+    document.querySelector("#a" + x).style.visibility = "hidden";
+  }
 }
