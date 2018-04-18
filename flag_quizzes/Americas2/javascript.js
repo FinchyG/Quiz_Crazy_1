@@ -10,11 +10,11 @@ function submit() {
   
 function question1() {
     
-  var country1   = document.getElementById('flag1').value.trim().toUpperCase();
+  var country1   = document.getElementById('flag1').value;
   var correct1   = document.getElementById('correct1');
   var incorrect1 = document.getElementById('incorrect1');  
   
-  if(country1 == "PERU"){
+  if(country1.match(/peru/i)){
     correct1.style.visibility   = "visible";
     incorrect1.style.visibility = "hidden";
   } else {
@@ -26,11 +26,11 @@ function question1() {
 
 function question2() {        
       
-  var country2   = document.getElementById('flag2').value.trim().toUpperCase();
+  var country2   = document.getElementById('flag2').value;
   var correct2   = document.getElementById('correct2');
   var incorrect2 = document.getElementById('incorrect2');
 
-  if(country2 == "USA" || country2 == "UNITED STATES OF AMERICA"){
+  if(country2.match(/usa|united states of america/i)){
     correct2.style.visibility   = "visible";
     incorrect2.style.visibility = "hidden";
   } else {
@@ -42,11 +42,11 @@ function question2() {
 
 function question3() {
     
-  var country3 = document.getElementById('flag3').value.trim().toUpperCase();
+  var country3 = document.getElementById('flag3').value;
   var correct3      = document.getElementById('correct3');
   var incorrect3    = document.getElementById('incorrect3');
 
-  if(country3 == "COLUMBIA"){
+  if(country3.match(/columbia/i)){
     correct3.style.visibility   = "visible";
     incorrect3.style.visibility = "hidden";
   } else {
@@ -58,11 +58,11 @@ function question3() {
 
 function question4() {
     
-  var country4   = document.getElementById('flag4').value.trim().toUpperCase();
+  var country4   = document.getElementById('flag4').value;
   var correct4   = document.getElementById('correct4');
   var incorrect4 = document.getElementById('incorrect4');
 
-  if(country4 == "CHILE"){
+  if(country4.match(/chile/i)){
     correct4.style.visibility   = "visible";
     incorrect4.style.visibility = "hidden";
   } else {
@@ -74,11 +74,11 @@ function question4() {
 
 function question5() {
     
-  var country5   = document.getElementById('flag5').value.trim().toUpperCase();
+  var country5   = document.getElementById('flag5').value;
   var correct5   = document.getElementById('correct5');
   var incorrect5 = document.getElementById('incorrect5');
 
-  if(country5 == "CUBA"){
+  if(country5.match(/cuba/i)){
     correct5.style.visibility   = "visible";
     incorrect5.style.visibility = "hidden";
   } else {
@@ -90,9 +90,9 @@ function question5() {
 
 //code for getting answers
 
-function get_flag_answers() {
+function getFlagAnswers() {
 
-  for(var x = 1; x < 6; x++) {
-    document.getElementById("flag_name_" + x).style.visibility = "visible";
+  for(i = 1; i < 6; i++) {
+    document.getElementById("flag_name_" + i).style.visibility = "visible";
   }
 }
