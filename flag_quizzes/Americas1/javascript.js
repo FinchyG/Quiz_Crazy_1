@@ -1,6 +1,6 @@
 //code for submitting answers
 
-function submit() {
+function submit() { //eslint-disable-line no-unused-vars
       question1();
       question2();
       question3();
@@ -91,9 +91,9 @@ function question5() {
 
 //code for getting answers
 
-function getFlagAnswers() {
+function getFlagAnswers() { //eslint-disable-line no-unused-vars
 
-  for(i = 1; i < 6; i++) {
+  for(var i = 1; i < 6; i++) {
     document.getElementById("flag_name_" + i).style.visibility = "visible";
   }
 }

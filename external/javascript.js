@@ -1,6 +1,6 @@
 //code for first question
 
-function show1() {
+function show1() { //eslint-disable-line no-unused-vars 
 
     var answer = document.querySelector('#a1');
     
@@ -8,7 +8,7 @@ function show1() {
   
 }
   
-function hide1() {
+function hide1() { //eslint-disable-line no-unused-vars
     
     var answer = document.querySelector('#a1');
     
@@ -18,7 +18,7 @@ function hide1() {
 
 //code for second question
 
-function show2() {
+function show2() { //eslint-disable-line no-unused-vars
 
     var answer = document.querySelector('#a2');
     
@@ -26,7 +26,7 @@ function show2() {
   
 }
   
-function hide2() {
+function hide2() { //eslint-disable-line no-unused-vars
     
     var answer = document.querySelector('#a2');
     
@@ -36,7 +36,7 @@ function hide2() {
 
 //code for third question
 
-function show3() {
+function show3() { //eslint-disable-line no-unused-vars
 
     var answer = document.querySelector('#a3');
     
@@ -44,7 +44,7 @@ function show3() {
   
 }
   
-function hide3() {
+function hide3() { //eslint-disable-line no-unused-vars
     
     var answer = document.querySelector('#a3');
     
@@ -54,7 +54,7 @@ function hide3() {
 
 //code for fourth question
 
-function show4() {
+function show4() { //eslint-disable-line no-unused-vars
 
     var answer = document.querySelector('#a4');
     
@@ -62,7 +62,7 @@ function show4() {
   
 }
   
-function hide4() {
+function hide4() { //eslint-disable-line no-unused-vars
     
     var answer = document.querySelector('#a4');
     
@@ -72,7 +72,7 @@ function hide4() {
 
 //code for fifth question
 
-function show5() {
+function show5() { //eslint-disable-line no-unused-vars
 
     var answer = document.querySelector('#a5');
     
@@ -80,7 +80,7 @@ function show5() {
   
 }
   
-function hide5() {
+function hide5() { //eslint-disable-line no-unused-vars
     
     var answer = document.querySelector('#a5');
     
@@ -90,7 +90,7 @@ function hide5() {
 
 //code for sixth question
 
-function show6() {
+function show6() { //eslint-disable-line no-unused-vars
 
     var answer = document.querySelector('#a6');
     
@@ -98,7 +98,7 @@ function show6() {
   
 }
   
-function hide6() {
+function hide6() { //eslint-disable-line no-unused-vars
     
     var answer = document.querySelector('#a6');
     
@@ -108,7 +108,7 @@ function hide6() {
 
 //code for seventh question
 
-function show7() {
+function show7() { //eslint-disable-line no-unused-vars
 
     var answer = document.querySelector('#a7');
     
@@ -116,7 +116,7 @@ function show7() {
   
 }
   
-function hide7() {
+function hide7() { //eslint-disable-line no-unused-vars
     
     var answer = document.querySelector('#a7');
     
@@ -126,7 +126,7 @@ function hide7() {
 
 //code for eighth question
 
-function show8() {
+function show8() { //eslint-disable-line no-unused-vars
 
     var answer = document.querySelector('#a8');
     
@@ -134,7 +134,7 @@ function show8() {
   
 }
   
-function hide8() {
+function hide8() { //eslint-disable-line no-unused-vars
     
     var answer = document.querySelector('#a8');
     
@@ -144,7 +144,7 @@ function hide8() {
 
 //code for ninth question
 
-function show9() {
+function show9() { //eslint-disable-line no-unused-vars
 
     var answer = document.querySelector('#a9');
     
@@ -152,7 +152,7 @@ function show9() {
   
 }
   
-function hide9() {
+function hide9() { //eslint-disable-line no-unused-vars
     
     var answer = document.querySelector('#a9');
     
@@ -162,7 +162,7 @@ function hide9() {
 
 //code for tenth question
 
-function show10() {
+function show10() { //eslint-disable-line no-unused-vars
 
     var answer = document.querySelector('#a10');
     
@@ -170,7 +170,7 @@ function show10() {
   
 }
   
-function hide10() {
+function hide10() { //eslint-disable-line no-unused-vars
     
     var answer = document.querySelector('#a10');
     
@@ -180,7 +180,7 @@ function hide10() {
 
 //code for "Show All" and "Hide All" buttons
 
-function showAll() {
+function showAll() { //eslint-disable-line no-unused-vars
 
   for(var x = 1; x < 11; x++) {
     document.querySelector("#a" + x).style.visibility = "visible";
@@ -188,7 +188,7 @@ function showAll() {
 
 }
     
-function hideAll() {
+function hideAll() { //eslint-disable-line no-unused-vars
 
   for(var x = 1; x < 11; x++) {
     document.querySelector("#a" + x).style.visibility = "hidden";

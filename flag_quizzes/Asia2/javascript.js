@@ -1,6 +1,6 @@
 //code for submitting answers
 
-function submit() {
+function submit() { //eslint-disable-line no-unused-vars
   question1();
   question2();
   question3();
@@ -14,7 +14,7 @@ function question1() {
   var correct1      = document.getElementById('correct1');
   var incorrect1    = document.getElementById('incorrect1');  
   
-  if(country1.match(/japan/i){
+  if(country1.match(/japan/i)){
     correct1.style.visibility   = "visible";
     incorrect1.style.visibility = "hidden";
   } else {
@@ -90,9 +90,9 @@ function question5() {
 
 //code for getting answers
 
-function getFlagAnswers() {
+function getFlagAnswers() { //eslint-disable-line no-unused-vars
 
-  for(i = 1; i < 6; i++) {
+  for(var i = 1; i < 6; i++) {
     document.getElementById("flag_name_" + i).style.visibility = "visible";
   }
 }
